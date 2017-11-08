@@ -1,6 +1,6 @@
 // React
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 // Components
@@ -23,6 +23,10 @@ import '../components/scroll-icon.css';
 import logo from '../assets/logo.svg';
 import background from '../assets/background.jpg';
 import transparent from '../assets/bg-transparent.png';
+
+const NoMatch = () => {
+  return <Redirect to={'/hello'}/>
+}
 
 export default class MainView extends Component {
 
@@ -73,6 +77,7 @@ export default class MainView extends Component {
               <Route path="/stuff" component={Stuff}/>
               <Route path="/me" component={Me}/>
               <Route path="/sayhi" component={Sayhi}/>
+              {/* <Route component={Hello}/> */}
             </Switch>
           </CSSTransition>
         </TransitionGroup>
