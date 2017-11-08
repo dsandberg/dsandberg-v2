@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="278px" height="116px" viewBox="0 0 278 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hello-D" transform="translate(-428.000000, -479.000000)">
+            <g id="Group-4" transform="translate(425.000000, 460.000000)">
+                <polyline id="Line" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square" points="157.5 50 250.918508 50 273 50"></polyline>
+                <polyline id="Line" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square" points="11 95 96.4256536 95 135 95"></polyline>
+                <text id="sand" font-family="OpenSans, Open Sans" font-size="64" font-weight="normal" letter-spacing="1.5" fill="#F8E71C">
+                    <tspan x="0" y="68">sand</tspan>
+                </text>
+                <text id="berg" font-family="OpenSans, Open Sans" font-size="64" font-weight="normal" letter-spacing="1.5" fill="#F8E71C">
+                    <tspan x="142" y="119">berg</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

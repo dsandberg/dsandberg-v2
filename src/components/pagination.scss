@@ -1,0 +1,70 @@
+
+.pagination {
+    grid-area: pagina;
+    justify-self: right;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 100px 50px;
+    grid-template-rows: auto auto auto;
+    grid-gap: 0px;
+    grid-template-areas:
+     "page-num dots"
+     "max-page-num dots"
+     "active-page dots";
+    color: white;
+    transition: all 200ms ease-in-out;
+    // background-color: red;
+
+    @media (max-width: 900px) {
+        align-self: end;
+        margin-bottom: -45px;
+        // transform: scale(0.5);
+    }
+    @media (max-width: 600px) {
+        display: none;
+    }
+
+    &__page-num {
+        grid-area: page-num;
+        display:inline-block;
+        font-size: 5em;
+        font-weight: 400;
+        margin: 0;
+        line-height: 1;
+        text-decoration: none;
+        color: inherit;  
+    }
+    &__max-page-num {
+        grid-area: max-page-num;
+        font-weight: 300;
+        margin: 0;
+        line-height: 1;
+    }
+    &__active-page {
+        grid-area: active-page;
+        font-weight: 300;
+        margin: 0;
+        display:inline-block;
+        text-decoration: none;
+        color: inherit;  
+    }
+    &__dots {
+        grid-area: dots;
+        justify-self: center;
+        align-self: center;
+        &__dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 4px;
+            background-color: white;
+            margin: 7px;
+            display: block;
+            transition: all 200ms ease-in-out;
+            &--active {
+                background-color: yellow;
+                margin: 7px -5px; 
+            }
+            &:hover {background-color: yellow;}
+        }
+    }
+}

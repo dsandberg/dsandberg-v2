@@ -1,0 +1,41 @@
+.main-bg--me {
+    background-color: #50E3C2;
+}
+
+.me__title {
+    color: white;
+}
+
+.me-wrapper {
+    max-width: 400px;
+    @media (max-width: 600px) {
+        max-width: 100%;
+    }
+}
+.me-section {
+    display: flex;
+    &__title {
+        color: white;
+        align-items: flex-end;
+        text-align: right;
+        font-size: 1em;
+        font-weight: 300;
+        width: 100px;
+        margin: 0 20px 0 0 ;
+        @media (max-width: 600px) {
+            text-align: left;
+         }
+    }
+    &__text {
+        width: 400px;
+        color: #343333;
+        @media (max-width: 600px) {
+            margin-top: 0;
+            width: 100%;
+         }
+    }
+    @media (max-width: 600px) {
+       flex-direction: column;
+       padding: 10px;
+    }
+}

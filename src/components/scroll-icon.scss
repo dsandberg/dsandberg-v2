@@ -1,0 +1,54 @@
+
+  .scroll-icon {
+    grid-area: footer;
+    justify-self: center;
+    margin-bottom: 15px;
+    transition: all 400ms ease-in-out;
+    transform: rotate(180deg);
+    @media (max-width: 600px) {
+      display:none;
+  }
+
+    &--up {
+      transform: rotate(0deg);
+    }
+
+    &--dark {
+      .scroll-icon__mousey {
+        border: 2px solid #9B9B9B;
+      }
+      .scroll-icon__mousey__scroller {
+        background-color: #9B9B9B;
+      }
+    }
+    
+    &__mousey {
+      width: 3px;
+      padding: 7px 10px;
+      height: 25px;
+      border: 2px solid #fff;
+      border-radius: 25px;
+      opacity: 0.75;
+      box-sizing: content-box;
+      transition: all 400ms ease-in-out;
+      
+      &__scroller {
+        width: 3px;
+        height: 10px;
+        border-radius: 25%;
+        background-color: #fff;
+        animation-name: scroll;
+        animation-duration: 2s;
+        animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+        animation-iteration-count: infinite;
+        transition: all 400ms ease-in-out;
+      }
+    }
+
+  }
+
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }

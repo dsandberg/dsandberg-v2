@@ -1,0 +1,34 @@
+.main-bg--stuff {
+    background-color: #F3F2F2;
+    .pagination {
+        color: #9B9B9B;
+        &__dots__dot {
+            background-color: #9B9B9B;
+            &--active {    
+                background-color: #50E3C2;
+            }
+            &:hover {
+                background-color: #50E3C2;                    
+            }
+        }
+    }
+    .navigation-list__item__link {
+        color: #9B9B9B;
+        &--active {
+            color: #50E3C2;
+        }
+        &:hover {
+            color: #50E3C2;
+        }           
+    }
+    .menu-icon__line {
+        background-color: #9B9B9B;
+    }
+    .menu-icon:hover .menu-icon__line {
+        background-color: #50E3C2;
+    }
+}
+
+.stuff__title {
+    color: #50E3C2;    
+}

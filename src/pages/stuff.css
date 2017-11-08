@@ -1,0 +1,23 @@
+.main-bg--stuff {
+  background-color: #F3F2F2; }
+  .main-bg--stuff .pagination {
+    color: #9B9B9B; }
+    .main-bg--stuff .pagination__dots__dot {
+      background-color: #9B9B9B; }
+      .main-bg--stuff .pagination__dots__dot--active {
+        background-color: #50E3C2; }
+      .main-bg--stuff .pagination__dots__dot:hover {
+        background-color: #50E3C2; }
+  .main-bg--stuff .navigation-list__item__link {
+    color: #9B9B9B; }
+    .main-bg--stuff .navigation-list__item__link--active {
+      color: #50E3C2; }
+    .main-bg--stuff .navigation-list__item__link:hover {
+      color: #50E3C2; }
+  .main-bg--stuff .menu-icon__line {
+    background-color: #9B9B9B; }
+  .main-bg--stuff .menu-icon:hover .menu-icon__line {
+    background-color: #50E3C2; }
+
+.stuff__title {
+  color: #50E3C2; }

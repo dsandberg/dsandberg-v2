@@ -1,0 +1,32 @@
+.main-bg--sayhi {
+  background-color: RGB(110, 110, 111); }
+  .main-bg--sayhi .pagination__dots__dot--active {
+    background-color: #50E3C2; }
+  .main-bg--sayhi .pagination__dots__dot:hover {
+    background-color: #50E3C2; }
+  .main-bg--sayhi .navigation-list__item__link--active {
+    color: #50E3C2; }
+  .main-bg--sayhi .navigation-list__item__link:hover {
+    color: #50E3C2; }
+  .main-bg--sayhi .menu-icon:hover .menu-icon__line {
+    background-color: #50E3C2; }
+
+.sayhi__title {
+  color: white; }
+
+.sayhi__address {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  color: lightgray; }
+  .sayhi__address__link {
+    color: lightgray;
+    margin-bottom: 5px;
+    text-decoration: none; }
+
+.sayhi__social-wrapper {
+  display: flex;
+  margin-top: 10px; }
+  .sayhi__social-wrapper__link {
+    height: 20px;
+    margin-right: 5px; }

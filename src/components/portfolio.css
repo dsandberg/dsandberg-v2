@@ -1,0 +1,43 @@
+.portfolio {
+  padding: 10px; }
+
+.portfolio__image {
+  width: 500px; }
+  @media (max-width: 750px) {
+    .portfolio__image {
+      width: 400px; } }
+  @media (max-width: 600px) {
+    .portfolio__image {
+      width: 100%; } }
+
+.portfolio__title {
+  font-size: 1em;
+  font-weight: 300;
+  color: inherit;
+  margin: 0; }
+
+.portfolio__text {
+  font-size: 0.8em;
+  color: #9B9B9B;
+  margin: 0; }
+
+.portfolio__button {
+  font-size: 0.8em;
+  border: 2px RGBA(80, 227, 194, 1) solid;
+  width: 100px;
+  margin: 5px 5px 0 0;
+  transition: all 200ms ease-in-out; }
+  .portfolio__button--transparent {
+    background-color: RGBA(80, 227, 194, 0);
+    color: RGBA(80, 227, 194, 1); }
+    .portfolio__button--transparent:hover {
+      background-color: RGBA(80, 227, 194, 0.5);
+      color: #F3F2F2;
+      cursor: pointer; }
+  .portfolio__button--fill {
+    background-color: RGBA(80, 227, 194, 1);
+    color: #F3F2F2; }
+    .portfolio__button--fill:hover {
+      background-color: RGBA(80, 227, 194, 0.5);
+      color: RGBA(80, 227, 194, 1);
+      cursor: pointer; }
